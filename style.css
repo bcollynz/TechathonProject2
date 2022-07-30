@@ -14,8 +14,21 @@ body{
     color: white;
     padding-bottom: 0%;
     min-height: 100vh;
-
     
+}
+.box2 a:hover, a:active{
+    color: white;
+    background-color: hsl(300, 69%, 71%);
+    
+}
+
+footer:hover, footer:active{
+    color: white;
+    background: hsl(300, 69%, 71%);
+    
+}
+footer{
+    cursor: pointer;
 }
 
 footer .fa-brands{
