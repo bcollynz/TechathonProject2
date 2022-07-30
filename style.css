@@ -8,7 +8,7 @@ body{
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Poppins', Sans-serif;
     font-weight: 400;
     background-color: hsl(257, 40%, 49%);
     color: white;
@@ -45,7 +45,7 @@ body{
 }
 .logo img{
     position: relative;
-    top: 20px;
+    top: 10px;
     margin-left:46px;
     
     
@@ -110,17 +110,24 @@ p{
 }
 @media only screen and (max-width:375px){
     .container{
+        display:flex;
         flex-direction: column;
-        text-align: center;
-        width: 90%;
-        position: relative;
-        right: 80px;
-        padding: 0;
+        align-items: center;
+        justify-content: center;
        }
+    .socialMedia{
+        text-align: center;
+        margin: 180px 0px 0px 160px;
+    }
     .box1 img{
-        width:270px;
+        width:300px;
         position:relative;
-        padding-left: 20px;
+        padding: 0px 5px 0px;        
+    }
+    .box2{
+        margin: 0px 60px 0px 0px;
+        text-align: center;
+        
     }
     .logo img{
         width: 50%;
@@ -137,18 +144,16 @@ p{
         padding:10px 70px;
         box-shadow: 4px 4px 6px black;
         margin-left: 32px; 
+        margin-top: 300#;
         
     }
     
     body{
         background-image: url(./images/bg-mobile.svg);
         text-align:center;
+        background-position: right top;
+        background-size: contain;
         
-    }
-    main img{
-        width:100%;
-        margin-left: 20px;
-
     }
     
     }
