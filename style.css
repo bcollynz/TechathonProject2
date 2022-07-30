@@ -95,7 +95,7 @@ i:hover{
     color: hsl(257, 40%, 49%); 
 }
 p{
-    opacity: 70%;
+    
     font-weight: normal;
     font-weight: 400;
     padding-left: 30px;
@@ -133,6 +133,7 @@ p{
         width: 50%;
         position:relative;
         right: 80px;
+        margin-top: 40px;
     }
     
     .container a{
@@ -144,7 +145,7 @@ p{
         padding:10px 70px;
         box-shadow: 4px 4px 6px black;
         margin-left: 32px; 
-        margin-top: 300#;
+        margin-top: 300px;
         
     }
     
